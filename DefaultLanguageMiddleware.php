@@ -64,7 +64,7 @@ class DefaultLanguageMiddleware extends AbstractModule implements ModuleCustomIn
      */
     public function customModuleLatestVersionUrl(): string
     {
-        return 'https://github.com/LarsRabe/ForceLanguage/latest-version.txt';
+        return 'https://github.com/LarsRabe/DefaultLanguageMiddleware/latest-version.txt';
     }
 
     /**
@@ -73,7 +73,7 @@ class DefaultLanguageMiddleware extends AbstractModule implements ModuleCustomIn
      */
     public function customModuleSupportUrl(): string
     {
-        return 'https://github.com/LarsRabe/ForceLanguage';
+        return 'https://github.com/LarsRabe/DefaultLanguageMiddleware';
     }
 
     /**
