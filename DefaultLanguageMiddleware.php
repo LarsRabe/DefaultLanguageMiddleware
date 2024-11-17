@@ -64,7 +64,7 @@ class DefaultLanguageMiddleware extends AbstractModule implements ModuleCustomIn
      */
     public function customModuleLatestVersionUrl(): string
     {
-        return 'https://github.com/LarsRabe/DefaultLanguageMiddleware/latest-version.txt';
+        return 'https://raw.githubusercontent.com/LarsRabe/MyDefaultLanguage/refs/heads/main/latest-version.txt';
     }
 
     /**
