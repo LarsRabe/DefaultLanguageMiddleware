@@ -97,7 +97,7 @@ class DefaultLanguageMiddleware extends AbstractModule implements ModuleCustomIn
 
     public function process(ServerRequestInterface $request, RequestHandlerInterface $handler): ResponseInterface
         {
-            if (Session::get('language') === 'de') {
+            if (Session::get('language') !== 'nl') {
                 I18N::init('nl');
             Session::put('language', 'nl');
         }
